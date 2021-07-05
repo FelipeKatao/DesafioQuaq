@@ -5,8 +5,8 @@
     "short_name":"SquadD",
     "icons":[
         {
-            "src": "",
-            "sizes":"",
+            "src": "img\/android-chrome-192x192.png",
+            "sizes":"150X150",
             "type":"image\/png"   
         }
     ],
