@@ -1,0 +1,18 @@
+{
+    "lang":"pt",
+    "dir":"ltr",
+    "name":"Desafio Squad",
+    "short_name":"SquadD",
+    "icons":[
+        {
+            "src": "",
+            "sizes":"",
+            "type":"image\/png"   
+        }
+    ],
+    "theme_color":"#CCC",
+    "background_color":"#FFF",
+    "start_url":"/'",
+    "display":"standalone",
+    "orientation":"natural"
+}
