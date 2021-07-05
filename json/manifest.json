@@ -5,14 +5,15 @@
     "short_name":"SquadD",
     "icons":[
         {
-            "src": "img\/android-chrome-192x192.png",
+            "src": "../img/img\/mstile-150x150.png",
             "sizes":"150X150",
             "type":"image\/png"   
         }
     ],
     "theme_color":"#CCC",
     "background_color":"#FFF",
-    "start_url":"/'",
+    "start_url":"https://desafioquaq.netlify.app/'",
     "display":"standalone",
     "orientation":"natural"
 }
+
