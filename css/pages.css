@@ -60,3 +60,14 @@ html, body {
     margin-top:-20vh;
     float: left;
 }
+
+/*restaurantes*/
+#restauranteVitrine{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    float: left;
+}
+#restauranteVitrine b h4{
+    margin-top: -4vh;
+    margin-left: 50vh;
+}
