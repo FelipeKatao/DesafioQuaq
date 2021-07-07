@@ -1,6 +1,9 @@
-html{
-    overscroll-behavior-x:none;
-}
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 
 #mainPage{
     width: 30vh;
