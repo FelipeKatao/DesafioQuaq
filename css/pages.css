@@ -1,0 +1,59 @@
+html{
+    overscroll-behavior-x:none;
+}
+
+#mainPage{
+    width: 30vh;
+    height: 20vh;
+}
+
+.padding2{
+    padding-top: 2vh;
+}
+
+
+/*Menus*/
+#menuBar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 2vh;
+}
+#restaurantes{
+    color:red;
+    padding-top: 2vh;
+    font-weight: bold;
+}
+#filtros{
+    margin-left: -2vh;
+}
+.pill{
+    color: #9c9898;
+    background-color: #bbbbbbd2;
+    border-radius: 4vh;
+    float: left;
+    margin-left: 2vh;
+    padding: 1vh;
+}
+
+/*banner*/
+#banner01{
+    margin-top: 6vh;
+}
+#banner01{
+    position: relative;
+    height: 20vh;
+    width: 40vh;
+    background-color: red;
+    text-align:center;
+    border-radius: 2vh;
+}
+#banner02{
+    border-radius: 2vh;
+    position: relative;
+    height: 20vh;
+    width: 40vh;
+    background-color: green;
+    text-align:center;
+    margin-left: 43vh;
+    margin-top:-20vh;
+    float: left;
+}
