@@ -8,10 +8,12 @@ class Restaurante{
         if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
         let index= 0
+        let eng  = new EngineApp()
+        eng.componentsEngine.createComponent("vitrineRest",renderRestaurante())
+        eng.componentsEngine.renderComponent("restaurantesPage","vitrineRest")
         myObj.forEach(element => {
-            let eng  = new EngineApp();
-            eng.componentsEngine.createComponent(myObj[index]['restaurante'],renderRestaurante(myObj[index]['restaurante'],myObj[index]['img'],myObj[index]['Nota'],myObj[index]['TaxaEntrega']))
-            eng.componentsEngine.renderComponent("restaurantesPage",myObj[index]['restaurante'])
+            eng.componentsEngine.createComponent(myObj[index]['restaurante'],renderRestaurantesId(myObj[index]['restaurante'],myObj[index]['img'],myObj[index]['Nota'],myObj[index]['TaxaEntrega'],myObj[index]['categoria']))
+            eng.componentsEngine.renderComponent("restaurantesArea",myObj[index]['restaurante'])
             index+=1
         });
     }
@@ -21,12 +23,19 @@ xmlhttp.send();
     }
 }
 
-function renderRestaurante(Nome,img,nota,taxa){
+function renderRestaurantesId(Nome,img,nota,taxa,categoria){
+    return "<div id='"+Nome+"' class='restauranteIcon'><img src='"+img+"' height='60vh' width='60vh'>"+
+    "<b>"+Nome+"</b>"+
+    "<h4 class='rate'><img src='../img/estrela.svg'>"+nota+"<b>"+categoria+"</b></h4>"+
+    "<h5>R$ "+taxa+"</h5>"+
+    "<img class='like-rest' src='../img/coracao.svg'>"+
+    "</div>"
+}
+
+function renderRestaurante(){
      return "<article id='restauranteVitrine'>"+
-     "<img src='"+img+"' height='170vh' width='350vh'>"+
-     "<b>"+Nome+
-     "<h4 class='rate'>"+nota+"</h4></b>"+
-     "<h5>Taxa de entrega de "+taxa+"</h5>"+
+     "<div class='titlesub'>Restaurantes</div><br>"+
+     "<div id='restaurantesArea'></div>"+
      "</article>"
 }
 export default new Restaurante

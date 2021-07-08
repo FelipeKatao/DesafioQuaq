@@ -19,18 +19,20 @@ html, body {
 #menuBar{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 2vh;
+    font-size: 2vh;
 }
 #restaurantes{
     color:red;
     padding-top: 2vh;
     font-weight: bold;
+    font-size: 3vh;
 }
 #filtros{
     margin-left: -2vh;
 }
 .pill{
     color: #9c9898;
-    background-color: #bbbbbbd2;
+    border: 2px solid #CCC;
     border-radius: 4vh;
     float: left;
     margin-left: 2vh;
@@ -72,4 +74,48 @@ html, body {
 }
 #restauranteVitrine  h5{
     margin-top: -3vh;
+}
+.titlesub{
+    position: absolute;
+    margin-top: -1vh;
+    font-weight: bold;
+}
+.restauranteIcon{
+    padding-bottom: 4vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+}
+.restauranteIcon img{
+    border-radius: 40vh;
+}
+.restauranteIcon b{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: 3vh;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.restauranteIcon h4{
+    position: absolute;
+    color: #e6a713;
+    font-size: 2vh;
+    margin-top: -6vh;
+    margin-left: 12vh;
+}
+.restauranteIcon h4 b{
+    color: #9c9898;
+    font-size: 2vh;
+    margin-left: 1vh;
+    margin-top: -0.2vh;
+}
+.restauranteIcon h5{
+    position:absolute;
+    font-size: 2vh;
+    color:#9c9898;
+    margin-left: 12vh;
+}
+.like-rest{
+    position: absolute;
+    margin-left: 37vh;
+    margin-top: 2vh;
 }

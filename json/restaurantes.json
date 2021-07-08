@@ -2,12 +2,56 @@
     "restaurante":"Nova delicia",
     "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
     "TaxaEntrega":1.90,
+    "categoria":"Lanche",
     "Nota":4.1
 },
 {
     "restaurante":"Nova delicia2",
     "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
     "TaxaEntrega":1.90,
+    "categoria":"Almoço",
+    "Nota":4.1
+},
+{
+    "restaurante":"Nova delicia",
+    "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
+    "TaxaEntrega":1.90,
+    "categoria":"Lanche",
+    "Nota":4.1
+},
+{
+    "restaurante":"Nova delicia2",
+    "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
+    "TaxaEntrega":1.90,
+    "categoria":"Almoço",
+    "Nota":4.1
+},
+{
+    "restaurante":"Nova delicia",
+    "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
+    "TaxaEntrega":1.90,
+    "categoria":"Lanche",
+    "Nota":4.1
+},
+{
+    "restaurante":"Nova delicia2",
+    "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
+    "TaxaEntrega":1.90,
+    "categoria":"Almoço",
+    "Nota":4.1
+},
+{
+    "restaurante":"Nova delicia",
+    "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
+    "TaxaEntrega":1.90,
+    "categoria":"Lanche",
+    "Nota":4.1
+},
+{
+    "restaurante":"Nova delicia2",
+    "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
+    "TaxaEntrega":1.90,
+    "categoria":"Almoço",
     "Nota":4.1
 }
 ]

@@ -10,7 +10,7 @@ class MenuBar{
 
 function MenuBarRender(){
   return "<nav id='menuBar'>"+
-  "<div id='endereco'><b>Endereço R. são paulo 109</b></div>"+
+  "<div id='endereco'><b>R. são paulo</b></div>"+
   "<div id='restaurantes'>Restaurantes</div>"+
   "</nav>"
 }
