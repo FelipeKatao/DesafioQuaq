@@ -40,14 +40,16 @@ html, body {
 }
 
 /*banner*/
+
 #banner01{
     margin-top: 6vh;
-}
-#banner01{
     position: relative;
     height: 20vh;
     width: 40vh;
-    background-color: red;
+    background-image: url("https://www.minhaoperadora.com.br/wp-content/uploads/2019/11/Mercado-Pago-e-Burger-King-v%C3%A3o-vender-6-lanches-por-R-15.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align:center;
     border-radius: 2vh;
 }
@@ -56,7 +58,9 @@ html, body {
     position: relative;
     height: 20vh;
     width: 40vh;
-    background-color: green;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsqXezzwdhUvWHH7kNPabr8eMQ9K3hZ_Aqtg&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
     text-align:center;
     margin-left: 43vh;
     margin-top:-20vh;
