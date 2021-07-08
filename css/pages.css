@@ -100,7 +100,7 @@ html, body {
     color: #e6a713;
     font-size: 2vh;
     margin-top: -5vh;
-    margin-left: 12vh;
+    margin-left: 10vh;
 }
 .restauranteIcon h4 b{
     position: absolute;
@@ -113,7 +113,7 @@ html, body {
     position:absolute;
     font-size: 2vh;
     color:#9c9898;
-    margin-left: 12vh;
+    margin-left: 10vh;
 }
 .like-rest{
     position: absolute;
