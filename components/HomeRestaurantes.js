@@ -1,0 +1,59 @@
+import EngineApp from '../Framework/engine.js'
+import HomeScreen from '../components/HomeScreen.js'
+
+class HomeRestaurante{
+    constructor(restaurante){
+       this.restaurante = restaurante
+    }
+    render(value){
+        let eng = new EngineApp()
+        //eng.renderEngine.renderHtml("app","<div>"+this.restaurante+"</div>")  
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var myObj = JSON.parse(this.responseText);
+                let index = 0
+                let eng = new EngineApp()
+                myObj.forEach(element => {
+                    
+                    if(element["restaurante"] == value){
+                        console.log(element["restaurante"]+"Ok")
+                        eng.componentsEngine.createComponent("restaurante",renderRestaurante(element["restaurante"],element["img"],element["categoria"],element["Nota"],element["cover"]))
+                        eng.componentsEngine.renderComponent("app","restaurante")
+                        AddEventListnerTO()
+                    }
+                    index += 1
+                });
+            }
+        };
+        xmlhttp.open("GET", "../json/restaurantes.json", true);
+        xmlhttp.send(); 
+
+    }
+}
+
+function AddEventListnerTO() {
+    var elements = document.getElementById("back");
+    elements.addEventListener('click', myFunction, false);
+}
+var myFunction = function () {
+    let eng = new EngineApp()
+    eng.renderEngine.pageDynamic="app"
+    eng.renderEngine.clearPage()
+    HomeScreen.render()
+};
+
+function renderRestaurante(tile,cover,descr,stars,imgcover){
+    return "<div class='body'>"+
+    "<div id='back'> < </div>"+
+    "<img src='"+imgcover+"' class='cover'>"+
+    "<div class='head'>"+
+    "<img src='"+cover+"' height='60' width='60'>"+
+    "<div class='titlehead'>"+tile+"</div>"+
+    "<h4>"+descr+"</h4>"+
+    "<div class='stars'>"+stars+"</div>"+
+    "</div>"+
+    "</div>"
+}
+
+export default new HomeRestaurante

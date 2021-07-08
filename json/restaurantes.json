@@ -1,57 +1,65 @@
 [{
-    "restaurante":"Nova delicia",
+    "restaurante":"Nova delicia3",
     "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
     "TaxaEntrega":1.90,
     "categoria":"Lanche",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 },
 {
     "restaurante":"Nova delicia2",
     "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
     "TaxaEntrega":1.90,
     "categoria":"Almoço",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 },
 {
-    "restaurante":"Nova delicia",
+    "restaurante":"Nova delicia12",
     "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
     "TaxaEntrega":1.90,
     "categoria":"Lanche",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 },
 {
-    "restaurante":"Nova delicia2",
+    "restaurante":"Nova delicia332",
     "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
     "TaxaEntrega":1.90,
     "categoria":"Almoço",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 },
 {
-    "restaurante":"Nova delicia",
+    "restaurante":"Nova deliciagf",
     "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
     "TaxaEntrega":1.90,
     "categoria":"Lanche",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 },
 {
-    "restaurante":"Nova delicia2",
+    "restaurante":"Nova delicia342",
     "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
     "TaxaEntrega":1.90,
     "categoria":"Almoço",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 },
 {
-    "restaurante":"Nova delicia",
+    "restaurante":"Nova delici123a",
     "img":"https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/set/17/prato-feito.jpg?itok=klqGuxxN&c=33313733cdad61e4bd51beabb4a84531",
     "TaxaEntrega":1.90,
     "categoria":"Lanche",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 },
 {
-    "restaurante":"Nova delicia2",
+    "restaurante":"N5ova delici4a2",
     "img":"https://blog.novasafra.com.br/wp-content/uploads/2018/03/comida-arabe-780x450.jpg",
     "TaxaEntrega":1.90,
     "categoria":"Almoço",
-    "Nota":4.1
+    "Nota":4.1,
+    "cover":"https://cdn.wizard.com.br/wp-content/uploads/2020/04/03201951/como-falar-sobre-comidas-em-espanhol.jpg"
 }
 ]
