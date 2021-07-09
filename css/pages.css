@@ -124,3 +124,37 @@ html, body {
     margin-left: 37vh;
     margin-top: 2vh;
 }
+
+.order{
+    margin-top: 2vh;
+    float: left;
+    width: 50vh;
+    height: 20vh;
+    border: 1px solid #CCC;
+}
+.order img{ height: 20vh; width: 20vh;}
+.order span{
+    display: flex; 
+    flex-direction: row;
+    margin-left: 20vh;
+    margin-top: -10vh;
+    padding: 1vh;
+}
+.order h4{
+    position: absolute;
+    margin-top: -10vh;
+    font-size: 4vh;
+    font-weight: bold;
+}
+.order h5{
+    width: 25vh;
+    margin-top: -4vh;
+    color: #9c9898;
+}
+.order h6{
+    margin-top: 4vh;
+    margin-left: -25vh;
+    font-weight: lighter;
+    font-size: 3vh;
+    color: #646464;
+}

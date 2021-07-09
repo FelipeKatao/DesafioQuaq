@@ -35,7 +35,6 @@ function AddEventListnerTO() {
 var myFunction = function () {
     var attribute = this.getAttribute("id");
     //Ir para o restaurante citado
-    console.log(attribute)
     let eng = new EngineApp()
     eng.renderEngine.pageDynamic="app"
     eng.renderEngine.clearPage()

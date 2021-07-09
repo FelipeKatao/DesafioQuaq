@@ -15,12 +15,17 @@ class HomeRestaurante{
                 let index = 0
                 let eng = new EngineApp()
                 myObj.forEach(element => {
-                    
                     if(element["restaurante"] == value){
-                        console.log(element["restaurante"]+"Ok")
+                        let Cardaprio = Object.keys(element["produtos"])
                         eng.componentsEngine.createComponent("restaurante",renderRestaurante(element["restaurante"],element["img"],element["categoria"],element["Nota"],element["cover"]))
                         eng.componentsEngine.renderComponent("app","restaurante")
                         AddEventListnerTO()
+                        index=0
+                        while(Object.keys(element["produtos"]).length > index){
+                            eng.componentsEngine.createComponent(Cardaprio[index],renderCardaprio(Cardaprio[index],element["produtos"][Cardaprio[index]]["descição"],element["produtos"][Cardaprio[index]]["preco"],element["produtos"][Cardaprio[index]]["img"]))
+                            eng.componentsEngine.renderComponent("cardaprio",Cardaprio[index])
+                            index+=1
+                        }
                     }
                     index += 1
                 });
@@ -53,6 +58,18 @@ function renderRestaurante(tile,cover,descr,stars,imgcover){
     "<h4>"+descr+"</h4>"+
     "<div class='stars'>"+stars+"</div>"+
     "</div>"+
+    "<div id='cardaprio'></div>"
+    "</div>"
+}
+
+function renderCardaprio(title,about,price,img){
+    return "<div class='order'>"+
+    "<img src='"+img+"'>"+
+    "<span>"+
+    "<h4>"+title+"</h4>"+
+    "<h5>"+about+""+
+    "<h6>R$"+price+"</h6></h5>"
+    "</span>"+
     "</div>"
 }
 
